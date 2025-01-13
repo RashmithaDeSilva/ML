@@ -16,21 +16,19 @@ Logistic Regression is a machine learning algorithm used for **classification ta
 
 Logistic Regression starts by calculating a linear equation:
 
-\[
-    z = w_1x_1 + w_2x_2 + \dots + w_nx_n + b
-\]
+![alt text](README-imgs/Logistic_Regression_linear_equation.png)
 
 - \(x_1, x_2, \dots, x_n\): Input features (like age, income, etc.)
 - \(w_1, w_2, \dots, w_n\): Weights (adjusted during training to improve predictions)
-- \(b\): Bias (a constant added to the equation)
+- b: Bias (a constant added to the equation)
 
 ### 2. Sigmoid Function
 
-Instead of using the raw linear value \(z\), Logistic Regression applies the **sigmoid function** to convert \(z\) into a probability:
+Instead of using the raw linear value z, Logistic Regression applies the **sigmoid function** to convert z into a probability:
 
-\[
-    \sigma(z) = \frac{1}{1 + e^{-z}}
-\]
+![alt text](README-imgs/Sigmoid_Function.png)
+
+![alt text](README-imgs/Sigmoid_Function_plot.png)
 
 This ensures the output is always between 0 and 1. For example:
 
@@ -64,8 +62,8 @@ The name comes from the **logistic function** (another name for the sigmoid func
 Imagine predicting whether a person will buy a car based on their age and income:
 
 1. **Input data**: Age = 30, Income = $50k.
-2. **Linear equation** computes \(z\).
-3. **Sigmoid function** converts \(z\) into a probability (e.g., 0.7 or 70% chance of buying).
+2. **Linear equation** computes z.
+3. **Sigmoid function** converts z into a probability (e.g., 0.7 or 70% chance of buying).
 4. If the threshold is 0.5, the model predicts the person **will buy the car**.
 
 <br>
@@ -82,8 +80,8 @@ Imagine predicting whether a person will buy a car based on their age and income
 
 - **How It Works**:
   Logistic Regression outputs a probability between 0 and 1. A threshold (commonly 0.5) is used:
-  - If \(P > 0.5\), predict Class 1.
-  - If \(P \leq 0.5\), predict Class 0.
+  - If P > 0.5, predict Class 1.
+  - If P \leq 0.5, predict Class 0.
 
 ### Multiclass Classification
 
