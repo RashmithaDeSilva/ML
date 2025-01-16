@@ -3,6 +3,8 @@
 ## **Overview**
 Support Vector Machines (SVM) is a supervised machine learning algorithm commonly used for classification and regression tasks. Its primary goal is to find a hyperplane that best separates classes of data in a high-dimensional space.
 
+![alt text](README-imgs/ex_1.png)
+
 <br>
 
 ## **How SVM Works**
@@ -28,6 +30,10 @@ Support Vector Machines (SVM) is a supervised machine learning algorithm commonl
 
 ### 4. **Soft Margin (C Parameter)**
 - Real-world data often has noise or overlaps. The **C parameter** controls the trade-off between maximizing the margin and minimizing classification errors. A small \(C\) allows for some misclassifications to increase margin size, while a large \(C\) tries to classify all training examples correctly.
+
+![alt text](README-imgs/ex_2.png)
+
+![alt text](README-imgs/ex_3.png)
 
 <br>
 
