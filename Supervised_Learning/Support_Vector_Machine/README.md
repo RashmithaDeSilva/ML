@@ -13,6 +13,10 @@ Support Vector Machines (SVM) is a supervised machine learning algorithm commonl
 - A **hyperplane** is a decision boundary that separates data points of different classes. In a 2D space, it’s a line; in a 3D space, it's a plane, and in higher dimensions, it’s called a hyperplane.
 - SVM aims to maximize the margin, which is the distance between the hyperplane and the closest data points from each class. These closest points are called **support vectors**.
 
+![alt text](README-imgs/ex_2.png)
+
+![alt text](README-imgs/ex_3.png)
+
 ### 2. **Linear Separation**
 - If the data is linearly separable, SVM finds the hyperplane with the largest margin. The equation of the hyperplane is:
   
@@ -30,10 +34,6 @@ Support Vector Machines (SVM) is a supervised machine learning algorithm commonl
 
 ### 4. **Soft Margin (C Parameter)**
 - Real-world data often has noise or overlaps. The **C parameter** controls the trade-off between maximizing the margin and minimizing classification errors. A small \(C\) allows for some misclassifications to increase margin size, while a large \(C\) tries to classify all training examples correctly.
-
-![alt text](README-imgs/ex_2.png)
-
-![alt text](README-imgs/ex_3.png)
 
 <br>
 
